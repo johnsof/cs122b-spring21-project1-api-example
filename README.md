@@ -13,7 +13,7 @@ This example shows how frontend and backend are separated by implementing a star
 
  - create a test user and grant privileges:
     ```
-    mysql> CREATE USER 'mytestuser'@'localhost' IDENTIFIED BY 'mypassword';
+    mysql> CREATE USER 'mytestuser'@'localhost' IDENTIFIED BY 'My6$Password';
     mysql> GRANT ALL PRIVILEGES ON * . * TO 'mytestuser'@'localhost';
     mysql> quit;
     ```
