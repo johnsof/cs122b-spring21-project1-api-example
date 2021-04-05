@@ -25,7 +25,7 @@ function handleStarResult(resultData) {
 
         // Concatenate the html tags with resultData jsonObject
         let rowHTML = "";
-        rowHTML += "<tr>";
+        rowHTML += "</tr>";
         rowHTML +=
             "<th>" +
             // Add a link to single-star.html with id passed with GET url parameter
